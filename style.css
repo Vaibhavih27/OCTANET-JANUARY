@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.navbar{
+    height:5vw;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url("pizz.webp");
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 12px;
+    align-items:center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight:600;
+    color:#ffc800;
+}
+li{
+    padding-top: 24px;
+    padding-bottom: 12px;
+    list-style: none;
+   display:inline-block;
+}
+li a{
+    color:#fff;
+    align-items: center;
+    font-family: 300px;
+    font-size:larger;
+    font-style:initial;
+    font-weight:bold;
+    margin-right:25px;
+    transition:0.2% ease;
+}
+li a:hover{
+    color:#ffc800;
+}
+ .banner-section{
+    height:100vh; 
+    background-image: linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url("pizz.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+}
+.content{
+margin:0 auto;
+width:100%;
+color:#fff;
+}
+h1{
+   font-size: 3rem;
+   max-width:600px;
+   line-height:50px;
+}
+p{
+    font-weight: 300;
+    max-width:600px;
+    margin-top:15px;
+}
+button{
+    font-style:italic;
+    font-weight:bold;
+    margin-top:15px;
+    padding:12px 30px;
+    border:3px solid #cca000;
+    font-size: 18px;
+    border-radius:6px;
+    margin-top: 38px;
+    cursor:pointer ;
+    font-weight: 500;
+    transition:0.2s ease;
+}
+button:hover{
+    color:red;
+    background-color:#ffc800;
+    border-color:#ffc800;
+}
